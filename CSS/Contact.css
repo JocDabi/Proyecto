@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/263/904/non_2x/white-abstract-background-backdrop-for-presentation-design-for-website-free-photo.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+  }
+  
+  nav{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+    background-color: rgb(26, 25, 25);
+  }
+  
+  .logo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Bungee Inline", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  .list{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .list li{
+    list-style: none;
+    
+  }
+  
+  .list a{
+    display: block;
+    text-transform: capitalize;
+    padding: 15px;
+    font-family: "Oswald", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .list a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(0, 53, 167);
+    height: 5px;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .list a:hover::before{
+    width: 90%;
+    transition: width 0.3s ease-out;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  h1{
+    font-size: 35px;
+    margin-top: 100px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+  #contenedor{
+    width: 430px;
+    height: 430px;
+    border: 6px solid rgba(0, 0, 0, 0.788);
+    border-radius: 10%;
+    background-image: url(../Imagenes/fondo\ formulario.png);
+  }
+
+  #name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+  }
+
+  #name input{
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: none;
+  }
+
+  .parr{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  #edad{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+ }
+
+ #edad input{
+    height: 25px;
+    width: 170px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: none;
+
+ }
+
+ #email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+#email input{
+    height: 25px;
+    width: 370px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: none;
+}
+
+#contr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#contr input{
+    height: 25px;
+    width: 171px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: none;
+}
+
+#env{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#env button{
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    background:linear-gradient(150deg,#070070,rgb(0, 117, 196),#009eb6);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#env button:hover{
+    background-color: none;
+}
+
+
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    margin-top: 22px;
+  }
+ 
