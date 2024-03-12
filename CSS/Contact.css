@@ -141,6 +141,7 @@
     border-radius: 20px;
     margin-top: 5px;
     border: none;
+    font-size: 17px;
 
  }
 
@@ -159,6 +160,7 @@
     border-radius: 20px;
     margin-top: 5px;
     border: none;
+    font-size: 15px;
 }
 
 #contr{
@@ -176,33 +178,34 @@
     border-radius: 20px;
     margin-top: 5px;
     border: none;
+    font-size: 18px;
 }
 
 #env{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
 #env button{
-    width: 120px;
-    height: 50px;
-    border: 0;
-    border-radius: 8px;
-    background:linear-gradient(150deg,#070070,rgb(0, 117, 196),#009eb6);
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-family: "Oswald", sans-serif;
-    font-weight: bold;
-    cursor: pointer;
+  border: none;
+  margin: 5px;
+  padding: 12px;
+  width: 90px;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-image: linear-gradient(to left,#3ec7c2,#0652DD,#12CBC4);
+  color: white;
+  transition: 0.6s;
+  background-size: 200%;
 }
 
 #env button:hover{
-    background-color: none;
+  background-position: right;
 }
-
 
 
 footer {
