@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/Contacto.css" />
+
+    <!-- Fuentes utilizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icono -->
+    <link
+      rel="icon"
+      href="https://static.vecteezy.com/system/resources/previews/020/336/719/non_2x/nike-logo-nike-icon-free-free-vector.jpg"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav>
+      <!-- Logo de la pagina -->
+      <div class="logo">
+        <a href="Index.html">SNKRS</a>
+      </div>
+      <!-- Elementos de la barra de navegacion para moverse entre paginas -->
+      <ul class="list">
+        <li><a href="Catalogo.html">Stock</a></li>
+        <li><a href="Contacto.html">Contact</a></li>
+        <li><a href="Nosotros.html">About us</a></li>
+        <li><a href="Clientes.html">Reviews</a></li>
+      </ul>
+    </nav>
+    <!-- Titulo -->
+    <h1>¡Hablemos de Sneakers! Completa Nuestro Formulario de Contacto</h1>
+
+    <main>
+      <!-- Inputs para nombre y apellido -->
+      <div id="contenedor">
+        <section id="name">
+          <div>
+            <p class="parr">Nombre</p>
+            <input type="text" />
+          </div>
+
+          <div>
+            <p class="parr">Apellido</p>
+            <input type="text" />
+          </div>
+        </section>
+        <!-- Inputs para edad y fecha de nacimiento -->
+        <section id="edad">
+          <div>
+            <p class="parr">Edad</p>
+            <input type="number" />
+          </div>
+
+          <div>
+            <p class="parr">Fecha de nacimiento</p>
+            <input type="date" />
+          </div>
+        </section>
+        <!-- Inputs para numero de telefono y correo electronico -->
+        <section id="email">
+          <div>
+            <p class="parr">Numero de telefono</p>
+            <input type="text" />
+          </div>
+
+          <div>
+            <p class="parr">Correo electronico</p>
+            <input type="email" />
+          </div>
+        </section>
+        <!-- Inputs para ciudad y pais -->
+        <section id="pais">
+          <div>
+            <p class="parr">Ciudad</p>
+            <input type="text" />
+          </div>
+          <div>
+            <p class="parr">Pais</p>
+            <input type="text" />
+          </div>
+        </section>
+        <!-- Inputs de contraseña -->
+        <section id="contr">
+          <div>
+            <p class="parr">Contraseña</p>
+            <input type="password" />
+          </div>
+
+          <div>
+            <p class="parr">Confirmar contraseña</p>
+            <input type="password" />
+          </div>
+        </section>
+        <!-- Boton de enviar -->
+        <section>
+          <div id="env">
+            <button onclick="alert('Informacion enviada correctamente!')">
+              Enviar
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+      <p>&copy; 2024 SNKRS OFFICIAL. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

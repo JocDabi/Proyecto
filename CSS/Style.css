@@ -38,6 +38,11 @@ nav{
   padding: 10px;
 }
 
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
 .list{
   float: right;
   padding: 0;
@@ -70,7 +75,7 @@ nav{
   display: block;
   content: '';
   width: 0%;
-  background: rgb(0, 53, 167);
+  background: rgb(2, 82, 255);
   height: 5px;
   bottom: 0;
   position: absolute;
